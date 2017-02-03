@@ -37,7 +37,7 @@ User.all.each do |a|
 end
 
 
-Post.create([{user_id: 5, title: Faker::Lorem.word, content: Faker::Lorem.paragraph}])
+Post.create(user_id: 5, title: Faker::Lorem.word, content: Faker::Lorem.paragraph)
 
 Group.find(1).users.each do |u|
 	Like.create(user_id: u.id, post_id: 1)

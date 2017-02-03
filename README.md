@@ -1,24 +1,14 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
 
-Things you may want to cover:
+4주차 스터디과제
+모델간의 관계분석
 
-* Ruby version
 
-* System dependencies
 
-* Configuration
+$rake db:drop
+$rake db:migrate
+$rake db:seed
 
-* Database creation
 
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+seed파일을 그대로 콘솔에 작성해도 정상적으로 작동 
